@@ -51,13 +51,17 @@ Una vez que hayas configurado el proyecto, puedes ejecutarlo utilizando el coman
 npm start
 ```
 
-Esto iniciará el servidor y lo hará accesible en `http://localhost:3000/`.
+Esto iniciará el servidor y lo hará accesible en `http://localhost:3001/`.
 
 ## Uso
 
 - Utiliza Postman u otro cliente REST para realizar llamadas a las rutas de la API.
 - Puedes encontrar la documentación de las rutas en el archivo `Routes.js`.
 - Las imágenes subidas se guardarán en la carpeta `/uploads`.
+
+## Integración con el Frontend
+
+Este proyecto de backend debe ejecutarse en conjunto con el proyecto de frontend adjunto. Asegúrate de ejecutar ambos proyectos simultáneamente para un funcionamiento adecuado.
 
 ## Autor
 
