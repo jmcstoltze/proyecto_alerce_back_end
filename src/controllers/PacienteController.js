@@ -159,7 +159,7 @@ function GetPacientes(req, res) {
             status: 'success',
             message: 'Registros encontrados.',
             total: data.length,
-            productos: data
+            pacientes: data
         })
     })
     .catch((e) => {
